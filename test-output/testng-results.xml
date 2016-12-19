@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PortalValidation" duration-ms="30814" started-at="2016-12-16T16:37:53Z" finished-at="2016-12-16T16:38:24Z">
+    <groups>
+    </groups>
+    <test name="SmokeScenario" duration-ms="30814" started-at="2016-12-16T16:37:53Z" finished-at="2016-12-16T16:38:24Z">
+      <class name="testcases.TestLogIn">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestLogIn@2752f6e2]" name="setUp" is-config="true" duration-ms="6106" started-at="2016-12-16T16:38:01Z" finished-at="2016-12-16T16:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:testcases.TestLogIn@2752f6e2]" name="logIn" duration-ms="6894" started-at="2016-12-16T16:38:07Z" finished-at="2016-12-16T16:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestLogIn@2752f6e2]" name="tearDown" is-config="true" duration-ms="343" started-at="2016-12-16T16:38:14Z" finished-at="2016-12-16T16:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestLogIn -->
+      <class name="testcases.TestWishlist">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestWishlist@e580929]" name="setUp" is-config="true" duration-ms="6561" started-at="2016-12-16T16:38:14Z" finished-at="2016-12-16T16:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyWishlistLogin()[pri:0, instance:testcases.TestWishlist@e580929]" name="verifyWishlistLogin" duration-ms="2617" started-at="2016-12-16T16:38:20Z" finished-at="2016-12-16T16:38:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWishlistLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestWishlist@e580929]" name="tearDown" is-config="true" duration-ms="415" started-at="2016-12-16T16:38:23Z" finished-at="2016-12-16T16:38:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestWishlist -->
+      <class name="testcases.TestHomePage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestHomePage@7d417077]" name="setUp" is-config="true" duration-ms="7183" started-at="2016-12-16T16:37:53Z" finished-at="2016-12-16T16:38:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:testcases.TestHomePage@7d417077]" name="verifyTitle" duration-ms="243" started-at="2016-12-16T16:38:00Z" finished-at="2016-12-16T16:38:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestHomePage@7d417077]" name="tearDown" is-config="true" duration-ms="435" started-at="2016-12-16T16:38:00Z" finished-at="2016-12-16T16:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestHomePage -->
+    </test> <!-- SmokeScenario -->
+  </suite> <!-- PortalValidation -->
+</testng-results>

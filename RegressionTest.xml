@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PortalValidation" verbose="1" >
+
+
+    <test name="RegressionScenario">
+        <classes>
+            <class name="testcases.TestHomePage"/>
+            <class name="testcases.TestLogIn"/>
+            <class name="testcases.TestWishlist"/>
+            <class name="testcases.TestWishlistScreenShots"/>
+        </classes>
+    </test>
+
+</suite>
